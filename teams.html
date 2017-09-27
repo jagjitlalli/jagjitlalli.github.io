@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: green;
+    color: blue;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #800000;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>The teams</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Main</li>
+      <li>The Departments</li>
+      <li>The Teams</li>
+      <li>The Community</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Enver Creek Teams </h1>
+    <p>Enver Creek has many teams, boys and girls can join the teams. There are teams for volly ball, basket ball, and even a kabadi team!.
+    <p>You must be warned student fees may be included.</p>
+   </p> 
+  </div>
+</div>
+
+<div class="footer">
+  <p>GO COUGARS!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+</div>
+
+</body>
+</html>
 
