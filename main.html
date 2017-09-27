@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enver Creek Secondary School</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>The Staff</li>
+      <li>The Courses</li>
+      <li>The Schedule</li>
+      <li>The Community</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Enver Creek</h1>
+    <p>The school was built by swag ltd.The school started small and till now it had been expanded with bigger wings and more classrooms.</p>
+    <p>Enver creek is proud of their students especailly when they made it into the paper once!</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>GO COUGARS!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+</div>
+
+</body>
+</html>
